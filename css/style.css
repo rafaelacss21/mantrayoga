@@ -369,3 +369,56 @@ footer h3 {
   font-size: 1rem;
   text-align: center;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 740px) {
+  #wrapper {
+    margin-top: -3%;
+  }
+  #callout {
+    width: 100%;
+    margin: 3% 0 2% 0;
+  }
+  #callout p {
+    display: none;
+  }
+  .one-third {
+    float: left;
+    width: 100%;
+    margin: 4% 0;
+  }
+  .one-third i {
+    font-size: 355%;
+  }
+  h1 {
+    font-size: 125%;
+    letter-spacing: 2px;
+  }
+  .welcome h2 {
+    font-size: 120%;
+  }
+  .left-col {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .right-col {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+  .page-callout {
+    width: 90%;
+    min-height: 160px;
+  }
+  .callout-text {
+    width: 95%;
+  }
+  .button-holder {
+    width: 72%;
+    padding: 1%;
+  }
+  .social i {
+    font-size: 175%;
+  }
+}
